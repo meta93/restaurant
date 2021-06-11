@@ -1,6 +1,6 @@
-import React from 'react'
+import React, {Container} from 'react';
 
-function TopComponent() {
+function Topcomponent() {
     return (
        <>
             <div className='background'></div>
@@ -11,4 +11,4 @@ function TopComponent() {
     )
 }
 
-export default TopComponent
+export default Topcomponent

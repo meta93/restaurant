@@ -1,5 +1,5 @@
-import Head from 'next/head'
-
+import Head from 'next/head';
+import Topcomponent from "../components/Topcomponent";
 export default function Home() {
   return (
     <div>
@@ -13,8 +13,9 @@ export default function Home() {
           crossorigin="anonymous"
         />
       </Head>
+      
       <main>
-        <TopComponent />
+        <Topcomponent />
       </main>
 
       <footer>
